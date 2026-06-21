@@ -10,9 +10,9 @@
     "README.md"
   ],
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node init && next dev",
+    "build": "node init && next build",
+    "start": "node init && next start",
     "lint": "eslint",
     "cli": "node ./bin/lily-cli.mjs",
     "prepack": "node ./bin/prepare-npm-readme.mjs apply",
